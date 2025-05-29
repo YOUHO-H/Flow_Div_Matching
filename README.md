@@ -17,5 +17,7 @@ In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) o
 
 ## Video prediction via latent FM
 
+We train a latent FM (Davtyan et al., 2023) and a latent FDM for video prediction. We further utilize a pre-trained VQGAN (Esser et al., 2021) to encode (resp. decode) each frame of the video to (resp. from) the latent space. See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/LFM-FDM-KTH/README.md).
+
 
 
