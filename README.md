@@ -1,6 +1,6 @@
 # Improving Flow Matching by Aligning Flow Divergence
 We use parts of code from [Lipman et al.,
-2023](https://github.com/facebookresearch/flow_matching), [Davtyan et al., 2023](https://github.com/Araachie/river) [(Stark et al., 2024)](https://github.com/HannesStark/dirichlet-flow-matching) and [Finzi et al. (2023)](https://github.com/google-research/google-research/tree/9dda2b5e6503284eeb24e746d4103ed37019a80e/simulation_research/diffusion).
+2023](https://github.com/facebookresearch/flow_matching), [Davtyan et al., 2023](https://github.com/Araachie/river) [Stark et al., 2024](https://github.com/HannesStark/dirichlet-flow-matching) and [Finzi et al., 2023](https://github.com/google-research/google-research/tree/9dda2b5e6503284eeb24e746d4103ed37019a80e/simulation_research/diffusion).
 
 
 Conditional Flow Matching (CFM) is an efficient, simulation-free method for training flow-based generative models, but it struggles to accurately learn probability paths. We address this by introducing a new PDE-based error characterization and show that the total variation between learned and true paths can be bounded by combining the CFM loss with a divergence loss. This leads to a new training objective that jointly matches flow and divergence, significantly improving performance on tasks like dynamical systems, DNA sequence, and video generation—without sacrificing efficiency. 
