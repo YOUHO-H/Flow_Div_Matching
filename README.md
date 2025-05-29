@@ -4,13 +4,16 @@ Conditional Flow Matching (CFM) is an efficient, simulation-free method for trai
 
 To validate the efficacy and efficiency of the proposed FDM in enhancing FM across various bench-mark tasks, including 
 ## Density estimation on synthetic 2D data 
-In this experiment, we train FM and FDM for sampling 2D synthetic checkboard data. see the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/flow_matching_2d_Synthetic_FDM/README.md).
+In this experiment, we train FM and FDM for sampling 2D synthetic checkboard data. See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/flow_matching_2d_Synthetic_FDM/README.md).
 
 
 ## DNA sequence generation
 
+In this experiment, we demonstrate that FDM enhances FM with the conditional OT path and Dirichlet path (Stark et al.,2024) on the probability simplex for DNA sequence generation, both with and without guidance, following experiments
+conducted in [(Stark et al., 2024)](https://github.com/HannesStark/dirichlet-flow-matching). See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/dirichlet-flow-matching-FDM/README.md).
+
 ## Trajectory sampling for dynamical systems 
-In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) on the Lorenz and FitzHugh-Nagumo models (Farazmand & Sapsis, 2019); see the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/Aligning-Flow-Div-User-Defined-Sampling/README.rst).
+In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) on the Lorenz and FitzHugh-Nagumo models (Farazmand & Sapsis, 2019). See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/Aligning-Flow-Div-User-Defined-Sampling/README.rst).
 
 ## Video prediction via latent FM
 
