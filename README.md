@@ -1,6 +1,9 @@
 # Improving Flow Matching by Aligning Flow Divergence
+We use parts of code from [Lipman et al.,
+2023](https://github.com/facebookresearch/flow_matching), [Davtyan et al., 2023](https://github.com/Araachie/river)
 
-Conditional Flow Matching (CFM) is an efficient, simulation-free method for training flow-based generative models, but it struggles to accurately learn probability paths. We address this by introducing a new PDE-based error characterization and show that the total variation between learned and true paths can be bounded by combining the CFM loss with a divergence loss. This leads to a new training objective that jointly matches flow and divergence, significantly improving performance on tasks like dynamical systems, DNA sequence, and video generation—without sacrificing efficiency.
+
+Conditional Flow Matching (CFM) is an efficient, simulation-free method for training flow-based generative models, but it struggles to accurately learn probability paths. We address this by introducing a new PDE-based error characterization and show that the total variation between learned and true paths can be bounded by combining the CFM loss with a divergence loss. This leads to a new training objective that jointly matches flow and divergence, significantly improving performance on tasks like dynamical systems, DNA sequence, and video generation—without sacrificing efficiency. 
 
 To validate the efficacy and efficiency of the proposed FDM in enhancing FM across various bench-mark tasks, including 
 ## Density estimation on synthetic 2D data 
@@ -19,8 +22,5 @@ In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) o
 
 We train a latent FM (Davtyan et al., 2023) and a latent FDM for video prediction. We further utilize a pre-trained VQGAN (Esser et al., 2021) to encode (resp. decode) each frame of the video to (resp. from) the latent space. See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/LFM-FDM-KTH/README.md).
 
-
-We use parts of code from [Lipman et al.,
-2023](https://github.com/facebookresearch/flow_matching), [Davtyan et al., 2023](https://github.com/Araachie/river)
 
 
