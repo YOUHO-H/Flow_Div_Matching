@@ -8,7 +8,7 @@ To validate the efficacy and efficiency of the proposed FDM in enhancing FM acro
 ## DNA sequence generation
 
 ## Trajectory sampling for dynamical systems 
-
+In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) on the Lorenz and FitzHugh-Nagumo models (Farazmand & Sapsis, 2019); the [details](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/Aligning-Flow-Div-User-Defined-Sampling/README.rst)
 
 ## Video prediction via latent FM
 
