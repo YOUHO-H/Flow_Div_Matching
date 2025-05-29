@@ -13,7 +13,7 @@ In this experiment, we train FM and FDM for sampling 2D synthetic checkboard dat
 ## DNA sequence generation
 
 In this experiment, we demonstrate that FDM enhances FM with the conditional OT path and Dirichlet path (Stark et al.,2024) on the probability simplex for DNA sequence generation, both with and without guidance, following experiments
-conducted in Stark et al., 2024. See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/dirichlet-flow-matching-FDM/README.md).
+conducted in (Stark et al., 2024). See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/dirichlet-flow-matching-FDM/README.md).
 
 ## Trajectory sampling for dynamical systems 
 In this experiment, we compare FDM against FM and DM from (Finzi et al., 2023) on the Lorenz and FitzHugh-Nagumo models (Farazmand & Sapsis, 2019). See the [subdirectory README](https://github.com/Utah-Math-Data-Science/Flow_Div_Matching/blob/main/Aligning-Flow-Div-User-Defined-Sampling/README.rst).
