@@ -1,5 +1,5 @@
 # Improving Flow Matching by Aligning Flow Divergence
-We use parts of code from [Lipman et al.,
+This repository is the code for the paper [Improving Flow Matching by Aligning Flow Divergence](https://icml.cc/virtual/2025/poster/45878). We use parts of code from [Lipman et al.,
 2023](https://github.com/facebookresearch/flow_matching), [Davtyan et al., 2023](https://github.com/Araachie/river) [Stark et al., 2024](https://github.com/HannesStark/dirichlet-flow-matching) and [Finzi et al., 2023](https://github.com/google-research/google-research/tree/9dda2b5e6503284eeb24e746d4103ed37019a80e/simulation_research/diffusion).
 
 
